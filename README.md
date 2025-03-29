@@ -3,9 +3,9 @@ A lightweight, tabbed terminal built with Golang &amp; Wails.
 
 ## Screenshots
 
-![cd1952840e68b891.png](https://img.rss.ink/imgs/2025/03/29/cd1952840e68b891.png)
+![cd1952840e68b891.png](https://img.rss.ink/imgs/2025/03/29/cd1952840e68b891.png?v=1)
 
-![5ed4f945c6cca245.png](https://img.rss.ink/imgs/2025/03/29/5ed4f945c6cca245.png)
+![324e62eb1a531b74.png](https://img.rss.ink/imgs/2025/03/29/324e62eb1a531b74.png)
 
 ## Shortcut
 
