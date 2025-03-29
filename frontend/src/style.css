@@ -1,0 +1,73 @@
+html {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* text-align: center;
+    color: white; */
+    color:#C0C4CC;
+    border-radius: 20px;
+    height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+}
+
+body {
+    overscroll-behavior: none;
+    /* 或者针对特定方向 */
+    overscroll-behavior-y: contain;
+    margin: 0;
+    /* color: white; */
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+@font-face {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""),
+    url("assets/fonts/nunito-v16-latin-regular.woff2") format("woff2");
+}
+
+#app {
+    /* height: 100vh; */
+    /* text-align: center; */
+}
+
+/* .xterm-helpers{
+    display: none;
+} */
+
+.xterm-helpers {
+    position: absolute;
+    z-index: -5; /* 确保在其他内容之下 */
+  }
+  
+  .xterm-helpers textarea {
+    position: absolute;
+    opacity: 0;
+    left: -9999px; /* 移出视口范围 */
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .xterm-helpers .xterm-char-measure-element {
+    visibility: hidden; /* 隐藏字符测量元素 */
+  }
+
+  /* .xterm-scroll-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+} */
+
+
+
+.xterm{
+    /* margin-bottom: 18px; */
+    padding-bottom: 18px;
+}

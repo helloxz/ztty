@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@xterm/addon-fit": "^0.10.0",
+    "@xterm/addon-web-links": "^0.11.0",
+    "element-plus": "^2.9.7",
+    "vue": "^3.5.13",
+    "xterm": "^5.3.0",
+    "xterm-addon-webgl": "^0.16.0"
+  },
+  "devDependencies": {
+    "unplugin-auto-import": "^19.1.2",
+    "unplugin-vue-components": "^28.4.1"
+  }
+}
