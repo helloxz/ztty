@@ -1,5 +1,5 @@
 # Ztty
-A lightweight, tabbed terminal built with Golang &amp; Wails.
+A lightweight, plug-and-play tabbed terminal, designed exclusively for macOS, built with Golang and Wails.
 
 ## Screenshots
 
